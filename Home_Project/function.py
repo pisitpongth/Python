@@ -17,16 +17,16 @@ def divide(a, b):
 a = int(input("Enter the first number: "))
 b = int(input("Enter the second number: "))
 
-print("[+] [-] [*] [/]")
+print("[add, minus, multiply, divide]")
 operation = input("Enter the operation: ")
 
-if operation == "+":
+if operation == "add":
     result = plus(a, b)
-elif operation == "-":
+elif operation == "minus":
     result = minus(a, b)
-elif operation == "*":
+elif operation == "multiply":
     result = multiply(a, b)
-elif operation == "/":
+elif operation == "divide":
     result = divide(a, b)
 
 print(f"The result of {a} {operation} {b} is: {result}")
