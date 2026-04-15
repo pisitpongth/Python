@@ -4,9 +4,9 @@ from inventory import Inventory
 def show_info(product):
     print(
         "Product name: ",
-        product.name,
+        product.get_name(),
         "\nCurrent stock: ",
-        product.stock,
+        product.get_stock(),
         "\n------------------------------",
     )
 
